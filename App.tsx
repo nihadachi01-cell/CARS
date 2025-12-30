@@ -1,12 +1,12 @@
 
 import React, { useState } from 'react';
-import Navbar from './components/Navbar';
-import SmokeEffect from './components/SmokeEffect';
-import CarCard from './components/CarCard';
-import AIChat from './components/AIChat';
-import TransactionModal from './components/TransactionModal';
-import { CARS_DATA } from './constants';
-import { Car } from './types';
+import Navbar from './components/Navbar.tsx';
+import SmokeEffect from './components/SmokeEffect.tsx';
+import CarCard from './components/CarCard.tsx';
+import AIChat from './components/AIChat.tsx';
+import TransactionModal from './components/TransactionModal.tsx';
+import { CARS_DATA } from './constants.ts';
+import { Car } from './types.ts';
 import { ChevronDown } from 'lucide-react';
 
 const App: React.FC = () => {
